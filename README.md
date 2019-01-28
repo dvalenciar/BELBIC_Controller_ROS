@@ -1,5 +1,5 @@
 # BELBIC Controller AR. DRONE
-Package with BELBIC controller for AR.Drone and Gazebo
+ROS Package with BELBIC controller for AR.Drone 
 
 ## Prerequisites
 * Operation System
