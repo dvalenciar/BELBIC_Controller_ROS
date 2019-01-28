@@ -12,4 +12,4 @@ This repository contains the simulation code for implementing a BELBIC (Brain Em
 Make sure ROS and GAZEBO are correctly installed. 
 
 Also, please install  ardrone_autonmy, tum_simuator packages and create a workspace. You can find the instructions here:
-[AR_Drone_Gazebo](https://github.com/dvalenciar/AR_Drone_ROS_GUI#getting-started)
+[AR Drone Gazebo Installation](https://github.com/dvalenciar/AR_Drone_ROS_GUI#getting-started)
