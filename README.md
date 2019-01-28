@@ -24,7 +24,6 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   git clone https://github.com/dvalenciar/BELBIC_Controller_ROS.git
   cd ..
   catkin_make
-
   ```
 
 ## How to Run
@@ -34,7 +33,6 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   ```
   cd ~/drone_simulation_ws/
   source devel/setup.bash
-
   ```
 2. Run a simulation by executing a launch file:
 
@@ -45,7 +43,6 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
 
   ```
   rostopic pub -1 /ardrone/takeoff std_msgs/Empty
-  
   ```
 
 4. Run the BELBIC controller node
