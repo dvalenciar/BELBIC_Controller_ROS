@@ -39,7 +39,7 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   ```
   roslaunch Belbic empty_world.launch
   ```
-3. Take off the Ar.Drone
+3. Take off the AR.Drone
 
   ```
   rostopic pub -1 /ardrone/takeoff std_msgs/Empty
@@ -49,7 +49,8 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
 
   ```
   rosrun Belbic Belbic_controller.py
- 
   ```
 The Drone will fly autonomously to the position X = 0, Y = 0 with an altitude Z = 2, and will maintain its position
+
+![](https://github.com/dvalenciar/BELBIC_Controller_ROS/blob/master/Belbic_1.gif)
 
