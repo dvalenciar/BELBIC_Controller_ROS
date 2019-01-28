@@ -28,7 +28,7 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
 
 ## How to Run
 
-1. Source your workspace environment
+1. **Source your workspace environment**
 
   ```
   cd ~/drone_simulation_ws/
@@ -62,3 +62,5 @@ You only have to publish the topic "/position_referencia" with the point where y
   ```
   rostopic pub /position_referencia geometry_msgs/Twist  '{linear:  {x: 7.0, y: 7.0, z: 3.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
  ```
+ 
+ ![](https://github.com/dvalenciar/BELBIC_Controller_ROS/blob/master/point.gif)
