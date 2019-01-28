@@ -17,11 +17,35 @@ Also, please install [ardrone_autonmy](https://github.com/AutonomyLab/ardrone_au
 
 ## Installation 
 
-1. Download and install the package in your personal workspace (e.g. ~/drone_simulation_ws)
+Download and install the package in your personal workspace (e.g. ~/drone_simulation_ws)
 ```
 $ cd ~/drone_simulation_ws/src
 $ git clone https://github.com/dvalenciar/BELBIC_Controller_ROS.git
 $ cd ..
 $ catkin_make
+```
 
+## How to Run
+
+1. Source your workspace environment
+
+```
+$ cd ~/drone_simulation_ws/
+$ source devel/setup.bash
+
+```
+2 . Run a simulation by executing a launch file:
+
+```
+$
+```
+3. Take off the Ar.Drone
+
+```
+$  rostopic pub -1 /ardrone/takeoff std_msgs/Empty
+```
+
+4. Run the BELBIC controller node
+
+```
 ```
