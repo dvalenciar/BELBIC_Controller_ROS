@@ -57,7 +57,7 @@ The Drone will fly autonomously to the position X = 0, Y = 0 with an altitude Z 
 
 5. **Fly to a specific point**
 
-You only have to publish the topic */position_referencia* with the point where you want to go. For example point x:7,y:7,z:3 The drone will fly autonomously to that point.
+You only have to publish the topic "*/position_referencia*"  with the point where you want to go. For example point x:7,y:7,z:3 The drone will fly autonomously to that point.
 
   ```
   rostopic pub /position_referencia geometry_msgs/Twist  '{linear:  {x: 7.0, y: 7.0, z: 3.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
