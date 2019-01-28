@@ -64,3 +64,5 @@ You only have to publish the topic "*/position_referencia*"  with the point wher
  ```
  
  ![](https://github.com/dvalenciar/BELBIC_Controller_ROS/blob/master/point.gif)
+
+## Trajectory Tracking ##
