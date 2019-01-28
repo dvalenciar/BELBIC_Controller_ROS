@@ -37,7 +37,7 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
 2. Run a simulation by executing a launch file:
 
   ```
-
+  roslaunch Belbic empty_world.launch
   ```
 3. Take off the Ar.Drone
 
@@ -48,5 +48,8 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
 4. Run the BELBIC controller node
 
   ```
-  
+  rosrun Belbic Belbic_controller.py
+ 
   ```
+The Drone will fly autonomously to the position X = 0, Y = 0 with an altitude Z = 2, and will maintain its position
+
