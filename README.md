@@ -14,5 +14,5 @@ This package depends on:
 * [GAZEBO 7.0]
 
 ## Getting started
-Make sure ROS and GAZEBO are correctly installed. Also install  ardrone and tum_simuator. You can find the instructions here:
+Make sure ROS and GAZEBO are correctly installed. Also, please install  ardrone_autonmy and tum_simuator package. You can find the instructions here:
 [AR_Drone_Gazebo](https://github.com/dvalenciar/AR_Drone_ROS_GUI#getting-started)
