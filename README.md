@@ -26,7 +26,7 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   catkin_make
   ```
 
-## How to Run
+## How to Run ##
 
 1. **Source your workspace environment**
 
@@ -34,18 +34,18 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   cd ~/drone_simulation_ws/
   source devel/setup.bash
   ```
-2. Run a simulation by executing a launch file:
+2. **Run a simulation by executing a launch file:**
 
   ```
   roslaunch Belbic empty_world.launch
   ```
-3. Take off the AR.Drone
+3. **Take off the AR.Drone**
 
   ```
   rostopic pub -1 /ardrone/takeoff std_msgs/Empty
   ```
 
-4. Run the BELBIC controller node
+4. **Run the BELBIC controller node**
 
   ```
   rosrun Belbic Belbic_controller.py
@@ -55,9 +55,9 @@ The Drone will fly autonomously to the position X = 0, Y = 0 with an altitude Z 
 ![](https://github.com/dvalenciar/BELBIC_Controller_ROS/blob/master/Belbic_1.gif)
 
 
-5. Fly to a specific point
+5. **Fly to a specific point**
 
-You only have to publish the topic "/position_referencia" with the point where you want to go. For example point x:7,y:7,z:3 The drone will fly autonomously to that point.
+You only have to publish the topic */position_referencia* with the point where you want to go. For example point x:7,y:7,z:3 The drone will fly autonomously to that point.
 
   ```
   rostopic pub /position_referencia geometry_msgs/Twist  '{linear:  {x: 7.0, y: 7.0, z: 3.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
