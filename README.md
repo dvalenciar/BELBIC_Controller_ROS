@@ -15,4 +15,4 @@ This package depends on:
 
 ## Getting started
 Make sure ROS and GAZEBO are correctly installed. Also install  ardrone and tum_simuator. You can find the instructions here:
-[AR_Drone_Gazebo](https://github.com/dvalenciar/AR_Drone_ROS_GUI)
+[AR_Drone_Gazebo](https://github.com/dvalenciar/AR_Drone_ROS_GUI#getting-started)
