@@ -75,8 +75,10 @@ The only thing you have to do is execute the following command in a terminal. (r
 **Circular Trajectory (Radio = 5)**
   ```
   rosrun Belbic Trajectory_Circular.py 
-  ```
-  
+```  
+![](https://github.com/dvalenciar/BELBIC_Controller_ROS/blob/master/pic44.gif)
+
+
 **Lemniscate  Trajectory (also known as 8 shape)**
  ```
  rosrun Belbic Trajectory_Lemniscata.py
@@ -88,6 +90,13 @@ Taking into account simplicity and efficiency, in this work, we created a ROS no
  ```
  rosrun Belbic GenerateTrajectory.py 
  ```
+ 
+You can also observe in real time the position of the drone and the reference send to the controller. You just have to run the following command
+ 
+ ```
+rosrun  rosrun rqt_multiplot rqt_multiplot
+ ```
+![](https://github.com/dvalenciar/BELBIC_Controller_ROS/blob/master/pic33.png)
 
 
 
