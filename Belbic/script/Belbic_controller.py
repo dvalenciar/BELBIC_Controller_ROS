@@ -22,9 +22,9 @@ class LecturePosicion:
 
 	def __init__(self):
 
-		rospy.Subscriber("ground_truth/state",       Odometry,  self.pose_callback)
-		rospy.Subscriber("navdata",                  Navdata,   self.ang_callback)
-		rospy.Subscriber("position_referencia",      Twist,     self.droneReferencia)
+		rospy.Subscriber("ground_truth/state" ,   Odometry,  self.pose_callback)
+		rospy.Subscriber("ardrone/navdata"    ,   Navdata ,  self.ang_callback)
+		rospy.Subscriber("position_referencia",   Twist   ,  self.droneReferencia)
 		
 		self.movePub = rospy.Publisher ("cmd_vel", Twist, queue_size=10)
 
