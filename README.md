@@ -91,6 +91,9 @@ Taking into account simplicity and efficiency, in this work, we created a ROS no
  rosrun Belbic GenerateTrajectory.py 
  ```
  
+ 
+ **rqt_multiplot**
+ 
 You can also observe in real time the position of the drone and the reference send to the controller. You just have to run the following command
  
  ```
