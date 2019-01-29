@@ -8,8 +8,8 @@ Description: Cubic polynomical functions for trajectory
 
 import rospy 
 import os
-from   geometry_msgs.msg     import Twist,Vector3,PoseStamped, Pose
-from   nav_msgs.msg import  Path 
+from   geometry_msgs.msg  import Twist,Vector3,PoseStamped, Pose
+from   nav_msgs.msg       import  Path 
 
 def cubic_polynomial(c0, cf, t_fin, t):
 
@@ -69,8 +69,7 @@ if __name__ == '__main__':
 	cmd_vel_publisher = rospy.Publisher('position_referencia', Twist,queue_size=1)
 	markerPub         = rospy.Publisher('trajectory_marker',   Path, queue_size=1) # esto es para luego poder graficar en el rviz
 
-	graph_data  = open("/home/david/Dropbox/tum_simulator_ws/src/Belbic/trajectories/waypoints.txt","r").read()
-	#graph_data  = open("/drone_simulation_ws/src/Belbic/trajectories/waypoints.txt","r").read()
+	graph_data  = open("/drone_simulation_ws/src/Belbic/trajectories/waypoints.txt","r").read()
 	lines       = graph_data.split ('\n')
 
 	pos0       = [-12.0,-12.0,10.0] # initial position
