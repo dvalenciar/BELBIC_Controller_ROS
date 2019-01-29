@@ -67,9 +67,25 @@ You only have to publish the topic "*/position_referencia*"  with the point wher
 
 ## Trajectory Tracking ##
 
+To make it even easier, we programmed 3 nodes with different trajectories (circular, lemniscate, waypoints). The drone will fly autonomously through these trajectories.
+
+The only thing you have to do is execute the following command in a terminal. (remember Source your workspace on the new terminal)
+
+
+**Circular Trajectory (Radio = 5)**
+  ```
+  rosrun Belbic Trajectory_Circular.py 
+  ```
+  
+**Lemniscate  Trajectory (also known as 8 shape)**
  ```
- rosrun Belbic Trajectory_Circular.py 
  rosrun Belbic Trajectory_Lemniscata.py
+ ```
+ 
+ **Waypoints Trajectory**
+ 
+Taking into account simplicity and efficiency, in this work, we created a ROS node that generated trajectories using a cubic polynomial function. The cubic polynomial function allows the generation of smooth trajectories. This “smoothness” means that velocity or acceleration has no discontinuities, therefore the stress on the motors is reduced considerably
+ ```
  rosrun Belbic GenerateTrajectory.py 
  ```
 
