@@ -99,6 +99,8 @@ You can also observe in real time the position of the drone and the reference se
  ```
 rosrun  rosrun rqt_multiplot rqt_multiplot
  ```
+Open a configuration and navegate to Belbic/rqt/rqt_signal_plot.xml
+
 ![](https://github.com/dvalenciar/BELBIC_Controller_ROS/blob/master/pic33.png)
 
 
