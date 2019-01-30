@@ -1,5 +1,6 @@
 # BELBIC Controller AR. DRONE
-This repository contains the simulation source-code for implementing a BELBIC (Brain Emotional Learning-Based Intelligent Controller) controller for autonomus navigation of AR.Drone 
+This repository contains the simulation source-code for implementing a BELBIC (Brain Emotional Learning-Based Intelligent Controller) controller for autonomus navigation of AR.Drone. The control system presented is inspired by the working principle of the human brain, where a mathematical model of the limbic system (Thalamus, Sensory Cortex, Orbitofrontal Cortex, and Amygdala) is implemented; The computational modelis fundamentally an action generation mechanism based on sensory inputs (SI) and emotional signals (REW). This model, called BELBIC, has as main tasks the stabilization of the quadrotors as well as the autonomous tracking of trajectories. BELBIC and other biologically-inspired approaches have been extensively utilized for solving different types of problems, essentially because Emotional Learning is a powerful methodology, with low
+computational complexity, fast training and simple to implement . An important characteristic of BELBIC is its single-layer architecture i.e. its computational complexity is in the order of O(n), which result in a better performance for real-time implementation 
 
 ## Pre-requisites
 * Operation System
