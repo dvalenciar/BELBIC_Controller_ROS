@@ -72,7 +72,7 @@ To make it even easier, we programmed 3 nodes with different trajectories (circu
 The only thing you have to do is execute the following command in a terminal. (remember Source your workspace on the new terminal)
 
 
-**Circular Trajectory (Radio = 5)**
+**Circular Trajectory (R = 5)**
   ```
   rosrun Belbic Trajectory_Circular.py 
 ```  
