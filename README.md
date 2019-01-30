@@ -92,7 +92,12 @@ Taking into account simplicity and efficiency, in this work, we created a ROS no
  rosrun Belbic GenerateTrajectory.py 
  ```
  
- 
+ The controls points where the quadrotor shoul pass are: Point 1 (x=5, y=5, z=1), Point 2 (x=5, y= -5, z=3), Point 3 (x= -5,
+y=-5, z=2), Point 4 (x= -5, y= 5, z=3), Point 5 (x=0, y=0, z=1)
+
+You can modify or add  waypoints, you just have to modify the file **waypoints.txt** located in ~/Belbic/trajectories/
+where the first column corresponds to X, the second column corresponds to Y, The third column corresponds to Z and the last column correspond to time.
+
  **rqt_multiplot**
  
 You can also observe in real time the position of the drone and the reference send to the controller. You just have to run the following command
