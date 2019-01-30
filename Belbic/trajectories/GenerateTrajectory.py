@@ -74,7 +74,7 @@ if __name__ == '__main__':
 	graph_data  = open(("%s/src/BELBIC_Controller_ROS/Belbic/trajectories/waypoints.txt"%(path)),"r").read()
 	lines       = graph_data.split ('\n')
 
-	pos0       = [-12.0,-12.0,10.0] # initial position
+	pos0       = [0.0,0.0,2.0] # initial position
 	
 	for line in lines:
  	
